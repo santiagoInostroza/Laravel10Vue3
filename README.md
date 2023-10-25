@@ -26,11 +26,13 @@ Estas instrucciones están realizadas para ser seguidas desde windows, no se ha 
 Abre el terminal wsl2 (Terminal linux en Windows) en la carpeta donde guardaras tu proyecto. Puedes clonar con `SSH` o `HTTPS`
 
 Clonar con SSH
+(Si no tienes configuradas tus llaves SSH en GitHub puedes mirar [este tutorial](https://platzi.com/tutoriales/1557-git-github/4067-configurar-llaves-ssh-en-git-y-github/)
 
 
     git clone git@github.com:santiagoInostroza/Laravel10Vue3.git
     
-    
+
+Si no quieres configurar tus llaves SSH puedes:
 Clonar con HTTPS
 
 
