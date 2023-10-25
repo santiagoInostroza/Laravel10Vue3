@@ -65,17 +65,19 @@ Copia archivo .env
 
 Reemplaza en el .env recien creado estas variables
 
+    DB_HOST=mysql
     DB_USERNAME=sail
     DB_PASSWORD=password
 
+Corre Sail
+
+    ./vendor/bin/sail up     
     
 Crea llave de la aplicación
 
     ./vendor/bin/sail artisan key:generate
 
-Corre Sail
 
-    ./vendor/bin/sail up     
     
     
 Instala Npm
