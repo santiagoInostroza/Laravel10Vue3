@@ -44,7 +44,7 @@
 <h4>Clonar proyecto con SSH</h4>
 
 
-    git clone git@github.com:santiagoInostroza/laravel9-vue3-vite.git
+    git clone git@github.com:santiagoInostroza/Laravel10Vue3.git
     
     
 <h4>o con HTTPS</h4>
