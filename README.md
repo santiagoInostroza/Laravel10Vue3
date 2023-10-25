@@ -2,7 +2,7 @@
 
 
 # Laravel 10 Vue 3
-### Proyecto creado con Laravel 10, Jetstream, Inertia, Vue 3, ElementPlus.
+### Proyecto creado con Laravel 10, Jetstream, Inertia, Vue 3, Vite, ElementPlus.
 
 ## Descripción
 
