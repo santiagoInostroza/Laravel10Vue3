@@ -50,13 +50,13 @@
 <h4>o con HTTPS</h4>
 
 
-     https://github.com/santiagoInostroza/laravel9-vue3-vite.git
+     https://github.com/santiagoInostroza/Laravel10Vue3.git
 
 
 <h4>ingresa a la carpeta</h4>
 
 
-    cd laravel9-vue3-vite/ 
+    cd Laravel10Vue3 
     
     
 <h4>Abre vs code</h4>
@@ -64,7 +64,7 @@
     code .
     
 <h4>Asegurate que docker este corriendo y de preferencia no hayan contenedores cargados.</h4>
-<h4>Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación:</h4>
+<h4>Ingresa el siguiente comando: </h4>
 
     docker run --rm \
     -u "$(id -u):$(id -g)" \
@@ -72,18 +72,27 @@
     -w /var/www/html \
     laravelsail/php81-composer:latest \
     composer install --ignore-platform-reqs
+
+Este comando usa un pequeño contenedor Docker que contiene PHP y Composer para instalar las dependencias de la aplicación
     
-    
+<br/>
+
+<h4>copia archivo .env</h4>
+
+
+    cp .env.example .env
+
+<h4>Reemplaza en el .env recien creado estas variables</h4>
+
+    DB_USERNAME=sail
+    DB_PASSWORD=password
 
 <h4>Corre Sail</h4>
 
     ./vendor/bin/sail up
 
 
-<h4>copia archivo .env</h4>
 
-
-    cp .env.example .env
     
     
 <h4>crea llave de la aplicación</h4>
